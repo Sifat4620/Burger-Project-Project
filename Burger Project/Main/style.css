@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/* header part */
+
+.Header-part{
+    background-image: url(../img/Rectangle.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: repeat;
+
+}
+.nav-line {
+    display: inline-block !important ;
+   
+}
+.bike-section{
+    text-align: end;
+}
+.bike-section li{
+     display: inline-block;
+
+}
+.container-fluid{
+    margin-bottom: -30px;
+}
+.nav-item{
+    padding: 0px 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+}
+.bike-section span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+
+}
+/* header part */
+
+
+/* banner part */
+.banner-part{
+    background-image: url(../img/Rectangle.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100%;
+}
+.banner-img-edit img{
+    width: auto;
+    height: 100vh;
+}
+
+
+/* banner part */
+.banner-text{
+display: table-cell;
+vertical-align: middle;
+height: 100vh;
+}
+.banner-text span{
+    border: 2px dashed black;
+    padding: 5px 5px;
+ font-family: 'Bebas Neue', cursive;
+ font-size: 20px;
+}
+.banner-text h1{
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 3px white;
+    font-size: 114px;
+    font-weight: bold;
+    color: #3d2514;
+}
+.banner-text h3{
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 3px white;
+    font-size: 50px;
+    font-weight: bold;
+    color: #3d2514;
+}
+
+/* banner part */
+
+
+/* Try to today  */
+.try-section{
+    margin:  50px 0px;
+}
+.try-row{
+    margin: 10px 0px !important;
+}
+
+.try-leftPic {
+    position: relative;
+
+}
+
+.try-leftPic span {
+position: absolute;
+top: 0;
+padding: 0px 10px;
+font-family: 'Bebas Neue', cursive;
+font-size: 35px;
+color: white;
+
+}
+.try-rightOnePic{
+    position: relative;
+}
+.try-rightOnePic span{
+    position: absolute;
+    top: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: white;
+    margin: 0px 12px;
+   
+ }
+ .try-rightTwo{
+     position: relative;
+     margin: 35px 0px;
+ }
+ .try-rightTwo span{
+    position: absolute;
+    top: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: white;   
+     margin: 0px 12px;
+}
+
+
+
+/* Try to today  */
+
+/*  Always testy burger */
+.always{
+    text-align: center;
+    margin: 35px 0px;
+}
+.always-btn button{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 25px;
+    background-color: #ffc045;
+    color: #3d2514;
+    border: none;
+    border-radius: 5px ;
+    font-size: 20px;
+
+
+}
+.always-text h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-weight: bold;
+    font-size: 80px;
+}
+.always-span span{
+    color: #715f53;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    
+
+}
+/*  Always testy burger */
+
+/* three burger section */
+.three-burger-section{
+text-align: center;
+margin: 80px 0px;
+}
+.TBS img{
+    padding-bottom: 10px;
+}
+.TBS h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-weight: bold;
+    font-size: 30px;
+}
+.TBS p{
+    color: #715f53;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.TBS button{
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+    font-size: 20px;
+  
+}
+/* three burger section */
+
+/* discover */
+.discover-section{
+    margin: 30px 0px;
+    
+}
+.discover-sha{
+    box-shadow: rgb(56 30 28 / 27%) 6.95px 16.95px 15.6px;
+
+}
+.discover-img img {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+}
+
+.discover-text{
+    width: 76%;
+}
+.discover-text span{
+    font-family: 'Bebas Neue', cursive;
+}
+.discover-text h3{
+    font-family: 'Alfa Slab One', cursive;
+}
+.discover-text p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* discover */
+
+/* Reservation */
+
+.Reservation{
+    text-align: center;
+    background-image: url(../img/b4\ background2.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Reservation-in{
+   
+}
+.Reservation-Two-text{
+    padding: 70px 0px;
+}
+.Reservation-one span{
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+.Reservation-two h1{
+    font-family: 'Alfa Slab One', cursive;
+}
+.Reservation-in input {
+ display: block;
+ width: 100%;
+ border: 1px solid gray;
+ padding: 10px 10px;
+ margin: 10px 0px;
+}
+.Reservation-in input{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 10px;
+
+}
+.Reservation-btn button{
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #bf2222;
+   margin: 5px 0px;
+
+
+}
+.Reservation-btn button{
+    width: 100%;
+    padding: 10px;
+}
+
+/* Reservation */
+/* footer  */
+.footer {
+    margin: 30px 0px;
+}
+.footer-section {
+    width: 100%;
+    height: 455px;
+    background-image: url(../img/Footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    color: white;
+   
+  
+}
+.footer-img img{
+color: white;
+}
+.footer-section-part {
+    padding: 125px 0px;
+
+}
+.footer-text p{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding: 20px 0px;
+}
+.f-icon-txt span {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding: 20px 0px;
+    
+}
+.footer-2-text {
+    padding: 17px 0px;
+}
